@@ -1,11 +1,40 @@
 header {
-    background: radial-gradient(rgb(241, 94, 50),#f36438)
+    background: radial-gradient(rgba(245, 156, 156, 0.589),#f7a288cc);
     
 }
 .page2bg{
-    background: radial-gradient(#fff,#ffd6d6);
+    background: radial-gradient(#fff,#fff1f1);
 }
 
 .page3bg{
     background: radial-gradient(#fff,#ffd6d6);
 }
+
+.hyundaipage img{
+    /* background: linear-gradient(100deg, #d1d0d080, #080808b5); */
+   background: linear-gradient(100deg, #d1d0d080, #080808b5), url(hlogo.jpg); 
+   
+   filter: blur(0.8px);
+   max-height: 300px;
+   width: 1000px;
+  
+   /* max-width: 200px; */
+}
+
+.containerr {
+    position: relative;
+    text-align: center;
+    color: rgb(238, 164, 164);
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    
+  }
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+
