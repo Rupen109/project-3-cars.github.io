@@ -38,4 +38,21 @@ header {
     left: 16px;
   }
 
+.logo{
+    font-size:40px; 
+    
+   
 
+}
+
+
+
+
+
+
+  @media (max-width: 991.98px) {
+    .selector {
+      padding: calc(1.325rem + 0.9vw);
+      font-size: 1.125rem; /* 1.125rem is small enough, so RFS won't rescale this */
+    }
+  }
